@@ -1,0 +1,92 @@
+:root {
+    --bg-pag: #EAEAEA;
+    --bg-rec: #FFFFFF;
+    --titles-subt: #1B1B1B;
+    --footer-sub: #8F8F8F;
+    --other-txt: #39393A;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Roboto:wght@400;700&display=swap');
+
+/* 
+font-family: 'Roboto', sans-serif;
+*/
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 750px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+h1, h2, figcaption, li, p {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    color: var(--titles-subt);
+}
+
+h1 {
+    font-weight: 700;
+    margin: 50px 0px 25px;
+}
+
+h2 {
+    font-weight: 500;
+    margin: 50px 0px 10px;
+}
+
+li, p {
+    font-weight: 400;
+}
+
+figcaption {
+    font-weight: 400;
+    font-size: 70%;
+    color: var(--footer-sub);
+}
+
+* {
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+li, p {
+    text-align: left;
+    color: var(--other-txt);
+    line-height: 40px;
+}
+
+p {
+    margin: 0px 40px 30px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-pag);
+}
+
+footer {
+    color: var(--footer-sub);
+}
+
+.fundo {
+    margin: 40px 0px;
+    background-color: var(--bg-rec);
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+#direita {
+    text-align: right;
+    width: 750px;
+}
